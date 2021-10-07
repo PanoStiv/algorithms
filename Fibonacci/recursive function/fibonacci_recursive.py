@@ -7,5 +7,6 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 
+#example
 for i in range(11):
     print(f"fibonacci({i})={fibonacci(i)}")
